@@ -1,0 +1,1880 @@
+{
+  "intents": [
+    {
+      "intent": "2ndyear_cse_ai_timetable_facultydetails",
+      "examples": [
+        {
+          "text": "2nd year ai faculty details"
+        },
+        {
+          "text": "2nd year AI time table"
+        },
+        {
+          "text": "2nd year cse faculty details"
+        },
+        {
+          "text": "2nd year cse timetable"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "admission",
+      "examples": [
+        {
+          "text": "admission"
+        },
+        {
+          "text": "join"
+        },
+        {
+          "text": "new admission"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Collect_Hallticket",
+      "examples": [
+        {
+          "text": "my hall ticket number is 19H61A05D5",
+          "mentions": [
+            {
+              "entity": "hallticket",
+              "location": [
+                25,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my hall ticket number is 19H61A05E1",
+          "mentions": [
+            {
+              "entity": "hallticket",
+              "location": [
+                25,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my hall ticket number is 19H61A05G2",
+          "mentions": [
+            {
+              "entity": "hallticket",
+              "location": [
+                25,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my hall ticket number is 19H61A05H2",
+          "mentions": [
+            {
+              "entity": "hallticket",
+              "location": [
+                25,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my hall ticket number is 19H61A05P0",
+          "mentions": [
+            {
+              "entity": "hallticket",
+              "location": [
+                25,
+                35
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "collect_name",
+      "examples": [
+        {
+          "text": "I am Devi Pranav",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                5,
+                9
+              ]
+            },
+            {
+              "entity": "name",
+              "location": [
+                10,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I am Nikhil",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I am Praneeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                5,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I am sambhu",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Devi Pranav",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                15
+              ]
+            },
+            {
+              "entity": "name",
+              "location": [
+                16,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is nikhil",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Praneeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is sambhu",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "collect_section",
+      "examples": [
+        {
+          "text": "AI",
+          "mentions": [
+            {
+              "entity": "Section",
+              "location": [
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "CSE A",
+          "mentions": [
+            {
+              "entity": "Section",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "CSE B",
+          "mentions": [
+            {
+              "entity": "Section",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "CSE C",
+          "mentions": [
+            {
+              "entity": "Section",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "CSE D",
+          "mentions": [
+            {
+              "entity": "Section",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "currentstudent",
+      "examples": [
+        {
+          "text": "about me"
+        },
+        {
+          "text": "current student"
+        },
+        {
+          "text": "present student"
+        },
+        {
+          "text": "present student details"
+        },
+        {
+          "text": "student details"
+        },
+        {
+          "text": "tell about my details"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greeting",
+      "examples": [
+        {
+          "text": "Ga"
+        },
+        {
+          "text": "GE"
+        },
+        {
+          "text": "GM"
+        },
+        {
+          "text": "Good Afternoon"
+        },
+        {
+          "text": "Good Evening"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "branch",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "AI",
+          "synonyms": [
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CSE",
+          "synonyms": [
+            "Computer science",
+            "Computer Science and Engineering",
+            "CS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ECE",
+          "synonyms": [
+            "Electrical and Communication Engineering"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EEE",
+          "synonyms": [
+            "Electrical and Electronical Engineering"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IT",
+          "synonyms": [
+            "Information technology "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MECH",
+          "synonyms": [
+            "Mechanical Engineering "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greetings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Afternoon",
+          "synonyms": [
+            "ga",
+            "gud evng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Evening",
+          "synonyms": [
+            "ge",
+            "gud aftn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": [
+            "gm",
+            "gud mrng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hello",
+          "synonyms": [
+            "Hi",
+            "Hola",
+            "Namaste"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "hallticket",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "19H61A05D5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "19H61A05E1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "19H61A05G2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "19H61A05H2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "19H61A05P0",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Devi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Devi Pranav",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nikhil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pranav",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "praneeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sambhu",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "options",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2nd year CSE and AI Timetable and faculty details",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Admissions",
+          "synonyms": [
+            "admission",
+            "applicants",
+            "enrolment",
+            "undergraduates"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Current student",
+          "synonyms": [
+            "existing student",
+            "present student"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "rank",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Rank",
+          "synonyms": [
+            "EAMCET Rank",
+            "iiit rank",
+            "IIT rank",
+            "jee rank",
+            "nit rank",
+            "position"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Section",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "AI",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CSE A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CSE B",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CSE C",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CSE D",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1617973265268",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1618030860583",
+      "context": {
+        "branch": "@branch"
+      },
+      "conditions": "@branch",
+      "event_name": "input",
+      "dialog_node": "handler_10_1618030860602"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulations , $name you are selected into $branch. Welcome to Anurag University. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618019101811",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1618030859789"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your brach"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1618030860583",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1618030860602",
+      "previous_sibling": "handler_10_1618030860602"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "please enter your name"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1618031471783",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1618031471783",
+      "previous_sibling": "handler_6_1618031471783"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1618031471783",
+      "context": {
+        "name": "@name"
+      },
+      "conditions": "@name",
+      "event_name": "input",
+      "dialog_node": "handler_6_1618031471783"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Greeting || @greetings",
+      "dialog_node": "node_10_1617973265268",
+      "previous_sibling": "node_5_1617982251217"
+    },
+    {
+      "type": "standard",
+      "title": "Collect Section",
+      "parent": "node_2_1618029742586",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1618033546950"
+      },
+      "conditions": "@Section || #collect_section",
+      "dialog_node": "node_10_1618033024440"
+    },
+    {
+      "type": "standard",
+      "title": "Second year CSE & AI timetable and faculty details",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "kindly enter section (for AI enter AI):"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617973265268",
+      "conditions": "@options:(2nd year CSE and AI Timetable and faculty details)",
+      "dialog_node": "node_2_1618029742586",
+      "previous_sibling": "node_8_1618019995340"
+    },
+    {
+      "type": "standard",
+      "title": "Collect Name",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1617982251217"
+      },
+      "conditions": "@name || #collect_name",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1617982140773",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "final result",
+      "parent": "node_7_1618017376701",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@branch || @name || #collect_name",
+      "dialog_node": "node_3_1618019101811"
+    },
+    {
+      "type": "standard",
+      "title": "Reply student details",
+      "parent": "node_8_1618019995340",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@hallticket || #Collect_Hallticket",
+      "dialog_node": "node_3_1618022848286",
+      "previous_sibling": "node_5_1618022763029"
+    },
+    {
+      "type": "standard",
+      "title": "Reply with the name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's nice to meet you @name ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@name || #collect_name",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1617982251217",
+      "previous_sibling": "node_3_1617982140773"
+    },
+    {
+      "type": "standard",
+      "title": "Collect Hall ticket",
+      "parent": "node_8_1618019995340",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1618022848286"
+      },
+      "conditions": "@hallticket || #Collect_Hallticket",
+      "dialog_node": "node_5_1618022763029"
+    },
+    {
+      "type": "standard",
+      "title": "New Admission",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "hello, please enter your rank"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617973265268",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@options:Admissions",
+      "dialog_node": "node_7_1617983598721"
+    },
+    {
+      "type": "standard",
+      "title": "Collect rank ",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1617983598721",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1618016501620"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_7_1618016329463"
+    },
+    {
+      "type": "standard",
+      "title": "Collect Branch",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1618017028485",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1618017376701"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_7_1618017349066"
+    },
+    {
+      "type": "standard",
+      "title": "Show Branch Options",
+      "parent": "node_8_1618017028485",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_7_1618017376701",
+      "previous_sibling": "node_7_1618017349066"
+    },
+    {
+      "type": "standard",
+      "title": "Reply with Rank",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your rank is @sys-number."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1617983598721",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1618017028485"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_8_1618016501620",
+      "previous_sibling": "node_7_1618016329463"
+    },
+    {
+      "type": "standard",
+      "title": "ask Branch",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Select The branch You Want:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1617983598721",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618017349066"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_8_1618017028485",
+      "previous_sibling": "node_8_1618016501620"
+    },
+    {
+      "type": "standard",
+      "title": "Existing Student Details",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kindly Enter hall-ticket number:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617973265268",
+      "conditions": "@options:(Current student)",
+      "dialog_node": "node_8_1618019995340",
+      "previous_sibling": "node_7_1617983598721"
+    },
+    {
+      "type": "standard",
+      "title": "reply section details",
+      "parent": "node_2_1618029742586",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Section || #collect_section",
+      "dialog_node": "node_9_1618033546950",
+      "previous_sibling": "node_10_1618033024440"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good morning"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select One Option :",
+            "options": [
+              {
+                "label": "New Admission",
+                "value": {
+                  "input": {
+                    "text": "New Admission"
+                  }
+                }
+              },
+              {
+                "label": "Existing Student Details",
+                "value": {
+                  "input": {
+                    "text": "Existing Student Details"
+                  }
+                }
+              },
+              {
+                "label": "2nd Year CSE and AI Time table/Faculty Details",
+                "value": {
+                  "input": {
+                    "text": "2nd Year CSE and AI Time table/Faculty Details"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1617973265268",
+      "conditions": "@greetings:(Good Morning)",
+      "dialog_node": "response_10_1617973353620",
+      "previous_sibling": "node_2_1618029742586"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "CSE C",
+            "source": "https://i.ibb.co/X7bc51K/CSE-C.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1618033546950",
+      "conditions": "@Section:(CSE C)",
+      "dialog_node": "response_10_1618033860843",
+      "previous_sibling": "response_3_1618033808000"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Select one:",
+            "options": [
+              {
+                "label": "AI",
+                "value": {
+                  "input": {
+                    "text": "AI"
+                  }
+                }
+              },
+              {
+                "label": "Mech",
+                "value": {
+                  "input": {
+                    "text": "Mech"
+                  }
+                }
+              },
+              {
+                "label": "EEE",
+                "value": {
+                  "input": {
+                    "text": "EEE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1618017376701",
+      "conditions": "@sys-number<=11000",
+      "dialog_node": "response_1_1618017993282",
+      "previous_sibling": "response_6_1618017886742"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Select One:",
+            "options": [
+              {
+                "label": "Mech",
+                "value": {
+                  "input": {
+                    "text": "Mech"
+                  }
+                }
+              },
+              {
+                "label": "EEE",
+                "value": {
+                  "input": {
+                    "text": "EEE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1618017376701",
+      "conditions": "@sys-number<=12000",
+      "dialog_node": "response_1_1618018089224",
+      "previous_sibling": "response_1_1618017993282"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NAME: S Devi Pranav\nHALL TICKET NUMBER: 19H61A05G2\nYEAR: 2nd year\nBRANCH & SECTION: CSE-C\nSEMESTER 1 SGPA: 9.0/10\nSEMESTER 2 SGPA: 9.4/10\nSEMESTER 3 SGPA: NOT YET DECLARED!!\nFOR MORE DETAILS VISIT https://anuragexams.info/Login.aspx?ReturnUrl=%2f"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618022848286",
+      "conditions": "@hallticket:19H61A05G2",
+      "dialog_node": "response_1_1618023624712",
+      "previous_sibling": "response_5_1618022946825"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Select One:",
+            "options": [
+              {
+                "label": "CSE",
+                "value": {
+                  "input": {
+                    "text": "CSE"
+                  }
+                }
+              },
+              {
+                "label": "AI",
+                "value": {
+                  "input": {
+                    "text": "AI"
+                  }
+                }
+              },
+              {
+                "label": "IT",
+                "value": {
+                  "input": {
+                    "text": "IT"
+                  }
+                }
+              },
+              {
+                "label": "ECE",
+                "value": {
+                  "input": {
+                    "text": "ECE"
+                  }
+                }
+              },
+              {
+                "label": "Mech",
+                "value": {
+                  "input": {
+                    "text": "Mech"
+                  }
+                }
+              },
+              {
+                "label": "EEE",
+                "value": {
+                  "input": {
+                    "text": "EEE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1618017376701",
+      "conditions": "@sys-number<=8000",
+      "dialog_node": "response_2_1618017620425",
+      "previous_sibling": "node_3_1618019101811"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulations , you are selected into @branch. Welcome to Anurag University. \nVisit: https://anurag.edu.in/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618019101811",
+      "conditions": "@branch:IT",
+      "dialog_node": "response_2_1618019332623",
+      "previous_sibling": "response_9_1618019246130"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulations , you are selected into @branch. Welcome to Anurag University. \nVisit: https://anurag.edu.in/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618019101811",
+      "conditions": "@branch:EEE",
+      "dialog_node": "response_2_1618019431624",
+      "previous_sibling": "response_4_1618019414126"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "AI",
+            "source": "https://i.ibb.co/vLHMd6M/AI.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1618033546950",
+      "conditions": "@Section:AI",
+      "dialog_node": "response_2_1618035370654",
+      "previous_sibling": "response_4_1618035211777"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Select  one:",
+            "options": [
+              {
+                "label": "AI",
+                "value": {
+                  "input": {
+                    "text": "AI"
+                  }
+                }
+              },
+              {
+                "label": "IT",
+                "value": {
+                  "input": {
+                    "text": "IT"
+                  }
+                }
+              },
+              {
+                "label": "ECE",
+                "value": {
+                  "input": {
+                    "text": "ECE"
+                  }
+                }
+              },
+              {
+                "label": "Mech",
+                "value": {
+                  "input": {
+                    "text": "Mech"
+                  }
+                }
+              },
+              {
+                "label": "EEE",
+                "value": {
+                  "input": {
+                    "text": "EEE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1618017376701",
+      "conditions": "@sys-number<=9000",
+      "dialog_node": "response_3_1618017759152",
+      "previous_sibling": "response_2_1618017620425"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulations , you are selected into @branch. Welcome to Anurag University. \nVisit: https://anurag.edu.in/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618019101811",
+      "conditions": "@branch:AI",
+      "dialog_node": "response_3_1618019382982",
+      "previous_sibling": "response_6_1618019364663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry You may proceed through management seats."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1618017376701",
+      "conditions": "@sys-number > 20000",
+      "dialog_node": "response_3_1618019495337",
+      "previous_sibling": "response_7_1618018241372"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "CSE B",
+            "source": "https://i.ibb.co/hDdL3Wn/CSE-B.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1618033546950",
+      "conditions": "@Section:(CSE B)",
+      "dialog_node": "response_3_1618033808000",
+      "previous_sibling": "response_4_1618033695714"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Afternoon"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select One Option:",
+            "options": [
+              {
+                "label": "New Admission",
+                "value": {
+                  "input": {
+                    "text": "New Admission"
+                  }
+                }
+              },
+              {
+                "label": "Existing Student Details",
+                "value": {
+                  "input": {
+                    "text": "Existing Student Details"
+                  }
+                }
+              },
+              {
+                "label": "2nd Year CSE and AI Time table/Faculty Details",
+                "value": {
+                  "input": {
+                    "text": "2nd Year CSE and AI Time table/Faculty Details"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1617973265268",
+      "conditions": "@greetings:(Good Afternoon)",
+      "dialog_node": "response_4_1617973381244",
+      "previous_sibling": "response_10_1617973353620"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulations , you are selected into @branch. Welcome to Anurag University. \nVisit: https://anurag.edu.in/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618019101811",
+      "conditions": "@branch:MECH",
+      "dialog_node": "response_4_1618019414126",
+      "previous_sibling": "response_3_1618019382982"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "CSE A ",
+            "source": "https://i.ibb.co/hMn7Xtn/CSE-A.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1618033546950",
+      "conditions": "@Section:(CSE A)",
+      "dialog_node": "response_4_1618033695714"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "CSE D",
+            "source": "https://i.ibb.co/ZKLpRHk/CSE-D.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1618033546950",
+      "conditions": "@Section:(CSE D)",
+      "dialog_node": "response_4_1618035211777",
+      "previous_sibling": "response_10_1618033860843"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NAME: K S Sambhu PrasadHALL TICKET NUMBER: 19H61A05E1YEAR: 2nd yearBRANCH & SECTION: CSE-CSEMESTER 1 SGPA: 9.5/10SEMESTER 2 SGPA: 9.45/10SEMESTER 3 SGPA: NOT YET DECLARED!!FOR MORE DETAILS VISIT \nhttps://anuragexams.info/Login.aspx?ReturnUrl=%2f"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618022848286",
+      "conditions": "@hallticket:19H61A05E1",
+      "dialog_node": "response_5_1618022946825"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NAME: V Sai Vamshi\nHALL TICKET NUMBER: 19H61A05P0\nYEAR: 2nd year\nBRANCH & SECTION: CSE-D\nSEMESTER 1 SGPA: 9.46/10\nSEMESTER 2 SGPA: 9.45/10\nSEMESTER 3 SGPA: NOT YET DECLARED!!\nFOR MORE DETAILS VISIT https://anuragexams.info/Login.aspx?ReturnUrl=%2f"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618022848286",
+      "conditions": "@hallticket:19H61A05P0",
+      "dialog_node": "response_5_1618023860682",
+      "previous_sibling": "response_8_1618023794973"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Select One:",
+            "options": [
+              {
+                "label": "AI",
+                "value": {
+                  "input": {
+                    "text": "AI"
+                  }
+                }
+              },
+              {
+                "label": "ECE",
+                "value": {
+                  "input": {
+                    "text": "ECE"
+                  }
+                }
+              },
+              {
+                "label": "Mech",
+                "value": {
+                  "input": {
+                    "text": "Mech"
+                  }
+                }
+              },
+              {
+                "label": "EEE",
+                "value": {
+                  "input": {
+                    "text": "EEE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1618017376701",
+      "conditions": "@sys-number<=10000",
+      "dialog_node": "response_6_1618017886742",
+      "previous_sibling": "response_3_1618017759152"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulations , you are selected into @branch. Welcome to Anurag University. \nVisit: https://anurag.edu.in/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618019101811",
+      "conditions": "@branch:ECE",
+      "dialog_node": "response_6_1618019364663",
+      "previous_sibling": "response_2_1618019332623"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "only One Option Available: EEE",
+            "options": [
+              {
+                "label": "EEE",
+                "value": {
+                  "input": {
+                    "text": "EEE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1618017376701",
+      "conditions": "@sys-number<=20000",
+      "dialog_node": "response_7_1618018241372",
+      "previous_sibling": "response_1_1618018089224"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Evening"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select One Option:",
+            "options": [
+              {
+                "label": "New Admission",
+                "value": {
+                  "input": {
+                    "text": "New Admission"
+                  }
+                }
+              },
+              {
+                "label": "Existing Student Details",
+                "value": {
+                  "input": {
+                    "text": "Existing Student Details"
+                  }
+                }
+              },
+              {
+                "label": "2nd Year CSE and AI Time table/Faculty Details",
+                "value": {
+                  "input": {
+                    "text": "2nd Year CSE and AI Time table/Faculty Details"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1617973265268",
+      "conditions": "@greetings:(Good Evening)",
+      "dialog_node": "response_8_1617973428207",
+      "previous_sibling": "response_4_1617973381244"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NAME: Nikhil GajamHALL TICKET NUMBER: 19H61A05D5YEAR: 2nd yearBRANCH & SECTION: CSE-CSEMESTER 1 SGPA: 9.6/10SEMESTER 2 SGPA: 9.6/10SEMESTER 3 SGPA: NOT YET DECLARED!!FOR MORE DETAILS VISIT https://anuragexams.info/Login.aspx?ReturnUrl=%2f"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618022848286",
+      "conditions": "@hallticket:19H61A05D5",
+      "dialog_node": "response_8_1618023693489",
+      "previous_sibling": "response_1_1618023624712"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NAME: V Praneeth Varma\nHALL TICKET NUMBER: 19H61A05H2\nYEAR: 2nd year\nBRANCH & SECTION: CSE-C\nSEMESTER 1 SGPA: 9.6/10\nSEMESTER 2 SGPA: 9.45/10\nSEMESTER 3 SGPA: NOT YET DECLARED!!\nFOR MORE DETAILS VISIT https://anuragexams.info/Login.aspx?ReturnUrl=%2f"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618022848286",
+      "conditions": "@hallticket:19H61A05H2",
+      "dialog_node": "response_8_1618023794973",
+      "previous_sibling": "response_8_1618023693489"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Branches Available:",
+            "options": [
+              {
+                "label": "CSE",
+                "value": {
+                  "input": {
+                    "text": "CSE"
+                  }
+                }
+              },
+              {
+                "label": "AI",
+                "value": {
+                  "input": {
+                    "text": "AI"
+                  }
+                }
+              },
+              {
+                "label": "ECE",
+                "value": {
+                  "input": {
+                    "text": "ECE"
+                  }
+                }
+              },
+              {
+                "label": "EEE",
+                "value": {
+                  "input": {
+                    "text": "EEE"
+                  }
+                }
+              },
+              {
+                "label": "Mech",
+                "value": {
+                  "input": {
+                    "text": "Mech"
+                  }
+                }
+              },
+              {
+                "label": "IT",
+                "value": {
+                  "input": {
+                    "text": "IT"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1617983598721",
+      "disabled": true,
+      "conditions": "$rank<=8000",
+      "dialog_node": "response_9_1617984095067",
+      "previous_sibling": "node_8_1618017028485"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Branches Available",
+            "options": [
+              {
+                "label": "AI",
+                "value": {
+                  "input": {
+                    "text": "AI"
+                  }
+                }
+              },
+              {
+                "label": "IT",
+                "value": {
+                  "input": {
+                    "text": "IT"
+                  }
+                }
+              },
+              {
+                "label": "ECE",
+                "value": {
+                  "input": {
+                    "text": "ECE"
+                  }
+                }
+              },
+              {
+                "label": "Mech",
+                "value": {
+                  "input": {
+                    "text": "Mech"
+                  }
+                }
+              },
+              {
+                "label": "EEE",
+                "value": {
+                  "input": {
+                    "text": "EEE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1617983598721",
+      "disabled": true,
+      "conditions": "$rank<=9000",
+      "dialog_node": "response_9_1617984234760",
+      "previous_sibling": "response_9_1617984095067"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulations , you are selected into @branch. Welcome to Anurag University. \nVisit: https://anurag.edu.in/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1618019101811",
+      "conditions": "@branch:CSE",
+      "dialog_node": "response_9_1618019246130",
+      "previous_sibling": "slot_7_1618031471783"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1618019101811",
+      "variable": "$branch",
+      "dialog_node": "slot_10_1618030860583",
+      "previous_sibling": "handler_2_1618030859789"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1618019101811",
+      "variable": "$name",
+      "dialog_node": "slot_7_1618031471783",
+      "previous_sibling": "slot_10_1618030860583"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, Please enter your name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "AnuragBot",
+  "language": "en",
+  "description": ""
+}
